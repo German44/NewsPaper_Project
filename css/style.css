@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&display=swap');
+
+:root {
+  --font-main: 'Asul', sans-serif;
+}
+
+/** estilo header */
+.header_container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.header_line {
+  width: 80%;
+  height: 2px;
+}
+
+/**estilo Card */
+.notice_card {
+  display: flex;
+flex-wrap: wrap;
+  height: auto;
+  background-color: beige;
+  padding: 10px;
+  text-align: center;
+}
+
+.notice_card img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+
+}

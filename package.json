@@ -1,0 +1,14 @@
+{
+  "name": "newspaper_project",
+  "version": "1.0.0",
+  "description": "Proyecto maquetacion de diario",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "German Ravarotto",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
