@@ -38,18 +38,42 @@
 }
 
 /**estilo Card */
-.notice_card {
+.article_card {
   display: flex;
-flex-wrap: wrap;
-  height: auto;
-  background-color: beige;
+  flex-wrap: wrap;
+  height: 500px;
+  /* background-color: beige; */
+  border: 1px solid beige;
   padding: 10px;
   text-align: center;
+  overflow: hidden;
 }
 
-.notice_card img {
+.article_text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 40%;
+  width: 100%;
+  /* background-color: aqua; */
+
+}
+
+.article_img {
+  display: flex;
+  /* background-color: blue; */
+  height: 60%;
+  width: 100%;
+}
+
+.article_img img {
   height: auto;
   width: 100%;
   object-fit: cover;
+}
 
+@media(max-width:570px){
+  .logo img{
+    height: 50px;
+  }
 }
